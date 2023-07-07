@@ -1109,9 +1109,7 @@ def lines():
 loop = 0
 oks = []
 cps = []
-try:
-    print('\n\033[1;37m[•] FARHAAN BALOCH BEST COMMAND ')
-	
+try:	   print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
@@ -1129,10 +1127,18 @@ def dynamic(text):
         print('\r'+text+o),
         sys.stdout.flush();time.sleep(1)
 
+
+#global functions
+def dynamic(text):
+    titik = ['.   ','..  ','... ','.... ']
+    for o in titik:
+        print('\r'+text+o),
+        sys.stdout.flush();time.sleep(1)
+
 def rehan():
 	os.system('clear')
 	print(logo)
-	print('[1] RANDOM CLONING')
+	print('[1] RANDOM PAK CLONING')
 	print('[2] RANDOM BD CLONING')
 	print('[3] RANDOM CHOICE PASS CLONING')
 	print('[4] CONTACT WITH OWNER')
@@ -1146,7 +1152,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		
+		os.system('xdg-open https://www.facebook.com/profile.php?id=100012510726200')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
@@ -1155,7 +1161,6 @@ def rehan():
 		print('[•] CHOOSE CORRECT OPTION')
 		time.sleep(2)
 		rehan()
-
 def menu():
 	os.system('clear')
 	print(logo)
