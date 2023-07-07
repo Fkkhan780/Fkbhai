@@ -1110,8 +1110,8 @@ loop = 0
 oks = []
 cps = []
 try:
-    print('\n\033[1;37m[•] FIST JOIN GROUP')
-	os.system('xdg-open https://www.facebook.com/profile.php?id=100012510726200')
+    print('\n\033[1;37m[•] FARHAAN BALOCH BEST COMMAND ')
+	
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
@@ -1146,7 +1146,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100012510726200')
+		
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
