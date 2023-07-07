@@ -1111,7 +1111,7 @@ oks = []
 cps = []
 try:
     print('\n\033[1;37m[•] FIST JOIN GROUP')
-	os.system('xdg-open https://facebook.com/groups/6029033313886673/')
+	os.system('xdg-open https://www.facebook.com/profile.php?id=100012510726200')
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
