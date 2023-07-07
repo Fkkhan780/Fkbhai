@@ -1096,9 +1096,10 @@ logo = """
 888        888 "88b 
 888        888  888                                                           \033[1;32m XD\033[1;37m 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32mFK\033[1;37m
+[•] AUTHOR     : \033[1;32M FARHAAN BALOCH\033[1;37m
 [•] STATUS     : \033[1;32mPAID\033[1;37m
-[•] OWNER    : \033[1;32mFARHAAN\033[1;37m
+[•] OWNER      : \033[1;32mFARHAAN\033[1;37m
+[•] GUTHUB     : \033[1;32mFKKHAN780\033[1;37m
 --------------------------------------------------
 [•] \033[1;37mVERSION    :\033[1;32m 2.1.5 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
@@ -1109,7 +1110,8 @@ loop = 0
 oks = []
 cps = []
 try:
-    print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
+    print('\n\033[1;37m[•] FIST JOIN GROUP')
+	os.system('xdg-open https://facebook.com/groups/6029033313886673/')
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
