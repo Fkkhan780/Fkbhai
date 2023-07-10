@@ -1130,8 +1130,8 @@ def dynamic(text):
 def rehan():
 	os.system('clear')
 	print(logo)
-	print('[1] RANDOM PAK CLONING')
-	print('[2] RANDOM BD CLONING')
+	print('[1] RANDOM CLONING 1')
+	print('[2] RANDOM CLONING 2')
 	print('[3] RANDOM CHOICE PASS CLONING')
 	print('[4] CONTACT WITH OWNER')
 	print('[0] EXIT')
@@ -1144,7 +1144,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100012510726200')
+		os.system('xdg-open https://wa.me/+923062422672?text='+tks')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
