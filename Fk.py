@@ -1086,20 +1086,21 @@ for xd in range(10000):
     ugen.append(uaku2)
 
 logo = """
- 
-8888888888 888      
-888        888      
-888        888      
-8888888    888  888 
-888        888 .88P 
-888        888888K  
-888        888 "88b 
-888        888  888                                                           \033[1;32m XD\033[1;37m 
+######## ##    ## 
+##       ##   ##  
+##       ##  ##   
+######   #####    
+##       ##  ##   
+##       ##   ##  
+##       ##    ## 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32mFK\033[1;37m
-[•] STATUS     : \033[1;32mPAID\033[1;37m
---------------------------------------------------
-[•] \033[1;37mVERSION    :\033[1;32m 1.0.4 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
+
+-----------------\033[1;37m--------------------------------------------------
+[~] Author   : FARHAAN
+[~] Facebook : FARHAAN BALOCH
+[~] Tool     : Paid
+[~] Version  : 1.0.5---------------------------------
+[•] \033[1;37mVERSION    :\033[1;32m 1.0.5 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
 --------------------------------------------------"""
 
 def lines():
@@ -1546,9 +1547,9 @@ def approval():
     else:
       print("YOUR KEY : "+id)
       print('\33[1;37m----------------------------------------------')
-      print("\33[1;32m Note this tool is paid :") 
+      print("\33[1;32mNOTE:")
       print("\33[1;37m----------------------------------------------")
-      print("\33[1;37mTOOL IS PAID  YOU HAVE TO\nGET APPROVAL FIRST.")
+      print("\33[1;37mTOOL IS PAID  TO\nGET APPROVAL FIRST.")
       print('\33[1;37m----------------------------------------------')
       print ('IF U DONT WANT TO BUY PLS DONT PRESS ENTER')
       input('IF U WANT TO BUY THEN PRESS ENTER ')
